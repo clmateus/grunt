@@ -14,6 +14,11 @@
 1. npm i --save-dev grunt-concurrent 
 2. No Gruntfile.js: grunt.loadNpmTasks('grunt-concurrent');
 
+## Observando mudanças
+
+1. npm i --save-dev grunt-contrib-watch
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-watch');
+
 ## Usando Grunt com Less
 
 1. npm i --save-dev grunt-contrib-less
