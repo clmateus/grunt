@@ -7,12 +7,19 @@
 ## Criando o script do Grunt
 
 1. Crie o arquivo Gruntfile.js
-1. Adicione o script ao package.json: "grunt": "grunt"
+2. Adicione o script ao package.json: "grunt": "grunt"
+
+## Criando tarefas paralelas
+
+1. npm i --save-dev grunt-concurrent 
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-concurrent');
 
 ## Usando Grunt com Less
 
 1. npm i --save-dev grunt-contrib-less
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-less');
 
 ## Usando Grunt com Sass
 
 1. npm i --save-dev grunt-contrib-sass
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-sass');
