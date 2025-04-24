@@ -19,6 +19,16 @@
 1. npm i --save-dev grunt-contrib-watch
 2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-watch');
 
+## Fazendo substituições
+
+1. npm i --save-dev grunt-replace
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-replace');
+
+## Minificando arquivos HTML
+
+1. npm i --save-dev grunt-contrib-htmlmin
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-htmlmin');
+
 ## Usando Grunt com Less
 
 1. npm i --save-dev grunt-contrib-less
