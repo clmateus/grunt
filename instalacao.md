@@ -24,10 +24,15 @@
 1. npm i --save-dev grunt-replace
 2. No Gruntfile.js: grunt.loadNpmTasks('grunt-replace');
 
-## Minificando arquivos HTML
+## Comprimindo arquivos HTML
 
 1. npm i --save-dev grunt-contrib-htmlmin
 2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-htmlmin');
+
+## Comprimindo arquivos JS
+
+1. npm -i --save-dev grunt-contrib-uglify
+2. No Gruntfile.js: grund.loadNpmTasks('grunt-contrib-uglify');
 
 ## Limpando arquivos temporários
 
