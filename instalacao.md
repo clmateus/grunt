@@ -29,6 +29,11 @@
 1. npm i --save-dev grunt-contrib-htmlmin
 2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
+## Limpando arquivos temporários
+
+1. npm -i --save-dev grunt-contrib-clean
+2. No Gruntfile.js: grunt.loadNpmTasks('grunt-contrib-clean');
+
 ## Usando Grunt com Less
 
 1. npm i --save-dev grunt-contrib-less
